@@ -76,6 +76,10 @@ print("my webserver is running...")
 httpd.serve_forever()
 ```
 ## OUTPUT:
+![alt text](<Screenshot (6).png>)
+![alt text](<Screenshot (8).png>)
+
+
 
 
 ## RESULT:
