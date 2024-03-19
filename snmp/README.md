@@ -21,9 +21,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
-
-from http.server import HTTPServer,BaseHTTPRequestHandler
-content = """
+```
 <html>
      <title> Image Map </title>
      <body>
@@ -75,8 +73,11 @@ httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
 
+```
+
 ## OUTPUT:
 ![alt text](<company revenue-1.png>)
 ![alt text](<company vs-1.png>)
+
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
