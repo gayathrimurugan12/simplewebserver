@@ -21,10 +21,11 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
+```
 from http.server import HTTPServer,BaseHTTPRequestHandler
 content = """
 <html>
-     <title> Image Map </title>
+     <title> Software Companies </title>
      <body>
           <table border = "2" cellspacing = "10" cellpading = "6">
                <caption> Top five revenue generating software companies</caption>
@@ -73,10 +74,8 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
-
+```
 ## OUTPUT:
-![Screenshot 2024-03-19 140727](https://github.com/gayathrimurugan12/simplewebserver/assets/149365374/60896c22-8903-468a-bea1-4b5f13f817cb)
-![Screenshot (5)](https://github.com/gayathrimurugan12/simplewebserver/assets/149365374/76ab19f1-7b73-4bd4-80bf-49aaa7667edc)
 
 
 ## RESULT:

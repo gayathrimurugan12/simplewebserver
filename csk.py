@@ -1,7 +1,7 @@
 from http.server import HTTPServer,BaseHTTPRequestHandler
 content = """
 <html>
-     <title> Image Map </title>
+     <title> Software Companies </title>
      <body>
           <table border = "2" cellspacing = "10" cellpading = "6">
                <caption> Top five revenue generating software companies</caption>
